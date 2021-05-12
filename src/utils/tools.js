@@ -1,5 +1,5 @@
 export const transformTextToUrl = text => {
-    const url = text.replace(" ", "-");
+    const url = text.replace(/ /g, "-");
     
     return url.toLowerCase();
 } 
